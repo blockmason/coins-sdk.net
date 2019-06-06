@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>$(RootNamespace)</AssemblyName>
+    <AssemblyVersion>$(VersionPrefix)</AssemblyVersion>
+    <Authors>canterberry</Authors>
+    <CodeAnalysisRuleset>Blockmason.Coins.ruleset</CodeAnalysisRuleset>
+    <Company>Blockmason</Company>
+    <Configuration>Release</Configuration>
+    <Description>Library for extending a game with crypto-backed virtual currency.</Description>
+    <Deterministic>true</Deterministic>
+    <FileVersion>$(VersionPrefix)</FileVersion>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <NoLogo>true</NoLogo>
+    <Optimize>true</Optimize>
+    <OutputType>Library</OutputType>
+    <Owners>canterberry</Owners>
+    <PackageIconUrl>https://mason.link/nuget.png</PackageIconUrl>
+    <PackageId>$(RootNamespace)</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://blockmason.link/</PackageProjectUrl>
+    <PackageRepositoryType>git</PackageRepositoryType>
+    <PackageRepositoryUrl>https://github.com/blockmason/coins-sdk.net.git</PackageRepositoryUrl>
+    <PackageTags>cloud serverless blockchain ethereum crypto coin virtual currency mmo gaming game</PackageTags>
+    <Product>Blockmason Coins</Product>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <RootNamespace>Blockmason.Coins</RootNamespace>
+    <Summary>Add crypto-backed virtual currency to your game.</Summary>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>Blockmason Coins SDK</Title>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Utf8Output>true</Utf8Output>
+    <VersionPrefix>1.0.0</VersionPrefix>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Blockmason.Link" Version="1.0.3"/>
+  </ItemGroup>
+</Project>
+
+
+
