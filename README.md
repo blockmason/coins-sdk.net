@@ -11,6 +11,9 @@ Add the following line to your project file:
 <PackageReference Include="Blockmason.Coins" Version="1.0.0"/>
 ```
 
+[Sign up][2] for Blockmason Link and copy/paste the contents of
+**Blockmason.Coins.sol** into your project.
+
 ## Usage
 
 Import this library:
@@ -48,3 +51,4 @@ await treasury.Transfer(coin, toUserId);
 A `Coin` has a `Holder` and an `Amount`.
 
 [1]: https://blockmason.link/
+[2]: https://mason.link/sign-up
